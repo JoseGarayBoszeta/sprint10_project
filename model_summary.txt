@@ -1,0 +1,28 @@
+
+Gold Recovery Prediction Model Summary
+------------------------------------
+1. Model Performance:
+   - Best Model: Random Forest
+   - Weighted sMAPE: 4.1846
+
+2. Prediction Ranges:
+   Rougher Recovery:
+   - Mean: 85.24%
+   - Range: 85.24% to 85.24%
+   
+   Final Recovery:
+   - Mean: 71.64%
+   - Range: 60.70% to 74.04%
+
+3. Most Important Features:
+                                    feature  importance
+84              calculated_rougher_recovery    0.833886
+44           rougher.output.concentrate_sol    0.054649
+86  total_concentration_rougher_concentrate    0.045131
+45            rougher.output.concentrate_au    0.028430
+42            rougher.output.concentrate_ag    0.019194
+
+4. Recommendations:
+   - Monitor these key features closely for process optimization
+   - Regular model retraining with new data
+   - Consider feature engineering for improved performance
